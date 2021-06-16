@@ -1,2 +1,5 @@
 
 .idea/
+config.py
+__pycache__/parse.cpython-38.pyc
+__pycache__/config.cpython-38.pyc
