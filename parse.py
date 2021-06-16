@@ -21,6 +21,7 @@ def print_target(link):
 
 def check_target(links):
     targets_querry = {}
+    adds_target = []
 
     with open('old_target.json', 'r') as f:  # загружаем старые таргеты
         targets_old = json.load(f)
@@ -31,6 +32,8 @@ def check_target(links):
             target = i.split('/')[4]
             if target in targets_old:
                 print('Таргет уже в базе:', i)
+                adds_target.append(target)
+
             else:
                 details_image, details_title, details_list, details_buy = print_target(i)
                 print('*** Таргет на публикацию ***', '\n' + i)
@@ -47,9 +50,20 @@ def check_target(links):
                         'details_buy': details_buy,
                         'push_groupe_id': []
                     }
-                time.sleep(15)
-        targets_all = {**targets_old, **targets_querry}
-        json.dump(targets_all, f, indent=4, ensure_ascii=False)
+                time.sleep(3)
+        # print('adds_target:', adds_target)
+        adds_target += list(targets_querry.keys())
+        # print('targets_querry + list(targets_querry.keys()) :', adds_target)
+
+        for target in targets_old:
+            if target in adds_target:
+                targets_querry[target] = targets_old[target]
+
+        # targets_all = {**targets_old, **targets_querry}
+        # print('targets_querry:', targets_querry)
+        # print('type(targets_querry)', type(targets_querry))
+
+        json.dump(targets_querry, f, indent=4, ensure_ascii=False)
 
     return targets_querry
 

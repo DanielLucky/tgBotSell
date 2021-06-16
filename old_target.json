@@ -1,21 +1,11 @@
 {
-    "1552": {
-        "details_image": "/media/xMemberMadness785.jpg.pagespeed.ic.4R70LJma1J.jpg",
-        "details_title": "Member Madness is free on Steel Series",
-        "details_list": "Game Category: Steel Series",
-        "details_buy": "https://games.steelseries.com/giveaway/1428014012/dead-by-daylight-dlc-madness-key-giveaway",
+    "1553": {
+        "details_image": "/media/xDeadbyDaylight5653.jpg.pagespeed.ic.d8ZokGEMxT.jpg",
+        "details_title": "Dead by Daylight is free on Steel Series",
+        "details_list": "Game Category: Steel SeriesRelease date: 14 Jun, 2016Platforms:Windows",
+        "details_buy": "https://games.steelseries.com/giveaway/2035907300/dead-by-daylight-steam-game-key-limited-giveaway",
         "push_groupe_id": [
-            "726897927",
-            "5218863"
-        ]
-    },
-    "1555": {
-        "details_image": "/media/xTheBoxCode3101.jpg.pagespeed.ic._2rDBAwhKv.jpg",
-        "details_title": "The Box Code is free on Google PlayStore",
-        "details_list": "Game Category: Google PlayStoreRelease date: Sep 4, 2020Platforms:Android",
-        "details_buy": "https://play.google.com/store/apps/details?id=karstenwinter.theboxcode&hl=en&gl=us",
-        "push_groupe_id": [
-            "726897927",
+            "-1001157323993",
             "5218863"
         ]
     },
@@ -25,37 +15,7 @@
         "details_list": "Game Category: Google PlayStoreRelease date: Sep 13, 2020Platforms:Android",
         "details_buy": "https://play.google.com/store/apps/details?id=com.SarangKoding.Requence&hl=en&gl=us",
         "push_groupe_id": [
-            "726897927",
-            "5218863"
-        ]
-    },
-    "1551": {
-        "details_image": "/media/xColorWheel404.jpg.pagespeed.ic.seT3o0Cezt.jpg",
-        "details_title": "Color Wheel is free on IOS",
-        "details_list": "Game Category: IOSPlatforms:IOS",
-        "details_buy": "https://apps.apple.com/us/app/id1449736609",
-        "push_groupe_id": [
-            "726897927",
-            "5218863"
-        ]
-    },
-    "1553": {
-        "details_image": "/media/xDeadbyDaylight5653.jpg.pagespeed.ic.d8ZokGEMxT.jpg",
-        "details_title": "Dead by Daylight is free on Steel Series",
-        "details_list": "Game Category: Steel SeriesRelease date: 14 Jun, 2016Platforms:Windows",
-        "details_buy": "https://games.steelseries.com/giveaway/2035907300/dead-by-daylight-steam-game-key-limited-giveaway",
-        "push_groupe_id": [
-            "726897927",
-            "5218863"
-        ]
-    },
-    "1548": {
-        "details_image": "/media/xMemorizeLearnJapaneseWords1090.jpg.pagespeed.ic.3JYKHNIuVJ.jpg",
-        "details_title": "Memorize: Learn Japanese Words is free on IOS",
-        "details_list": "Game Category: IOSPlatforms:IOS",
-        "details_buy": "https://apps.apple.com/us/app/memorize-learn-japanese-words/id1505764504",
-        "push_groupe_id": [
-            "726897927",
+            "-1001157323993",
             "5218863"
         ]
     },
@@ -65,7 +25,7 @@
         "details_list": "Game Category: Alienware ArenaRelease date: 11 May, 2017Platforms:Windows",
         "details_buy": "https://na.alienwarearena.com/ucf/show/2153814/boards/contest-and-giveaways-global/Giveaway/dead-by-daylight-dlc-key-giveaway",
         "push_groupe_id": [
-            "726897927",
+            "-1001157323993",
             "5218863"
         ]
     },
@@ -75,7 +35,47 @@
         "details_list": "Game Category: Alienware ArenaRelease date: 14 Jun, 2016Platforms:Windows",
         "details_buy": "https://na.alienwarearena.com/ucf/show/2153812/boards/giveaways-and-contest-na/Giveaway/dead-by-daylight-game-key-giveaway",
         "push_groupe_id": [
-            "726897927",
+            "-1001157323993",
+            "5218863"
+        ]
+    },
+    "1551": {
+        "details_image": "/media/xColorWheel404.jpg.pagespeed.ic.seT3o0Cezt.jpg",
+        "details_title": "Color Wheel is free on IOS",
+        "details_list": "Game Category: IOSPlatforms:IOS",
+        "details_buy": "https://apps.apple.com/us/app/id1449736609",
+        "push_groupe_id": [
+            "-1001157323993",
+            "5218863"
+        ]
+    },
+    "1548": {
+        "details_image": "/media/xMemorizeLearnJapaneseWords1090.jpg.pagespeed.ic.3JYKHNIuVJ.jpg",
+        "details_title": "Memorize: Learn Japanese Words is free on IOS",
+        "details_list": "Game Category: IOSPlatforms:IOS",
+        "details_buy": "https://apps.apple.com/us/app/memorize-learn-japanese-words/id1505764504",
+        "push_groupe_id": [
+            "-1001157323993",
+            "5218863"
+        ]
+    },
+    "1552": {
+        "details_image": "/media/xMemberMadness785.jpg.pagespeed.ic.4R70LJma1J.jpg",
+        "details_title": "Member Madness is free on Steel Series",
+        "details_list": "Game Category: Steel Series",
+        "details_buy": "https://games.steelseries.com/giveaway/1428014012/dead-by-daylight-dlc-madness-key-giveaway",
+        "push_groupe_id": [
+            "-1001157323993",
+            "5218863"
+        ]
+    },
+    "1555": {
+        "details_image": "/media/xTheBoxCode3101.jpg.pagespeed.ic._2rDBAwhKv.jpg",
+        "details_title": "The Box Code is free on Google PlayStore",
+        "details_list": "Game Category: Google PlayStoreRelease date: Sep 4, 2020Platforms:Android",
+        "details_buy": "https://play.google.com/store/apps/details?id=karstenwinter.theboxcode&hl=en&gl=us",
+        "push_groupe_id": [
+            "-1001157323993",
             "5218863"
         ]
     }

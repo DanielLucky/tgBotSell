@@ -33,12 +33,27 @@ async def process_start_command(message: types.Message):
         print('Попытка запустить бота в не зарегистрированной группе:', message.chat.id)
 
 
+@dp.message_handler(commands=['stop'])
+async def process_start_command(message: types.Message):
+    id_chat = open('id_chat.txt').read().split()
+
+    if str(message.chat.id) in id_chat:
+        start_id_chat = open('start_id_chat.txt').read().split()
+        start_id_chat.remove(str(message.chat.id))
+
+        with open('start_id_chat.txt', 'w') as f:
+            for id in set(start_id_chat):
+                f.write(id + '\n')
+        await bot.send_message(message.chat.id, 'Статус бота: остановлен')
+    else:
+        await bot.send_message(message.chat.id, 'Ваша группа не зарегистрирована')
+        print('Попытка остановить бота в не зарегистрированной группе:', message.chat.id)
 
 
 
 async def push_sell():
     while True:
-        # start_parse_all_games()
+        start_parse_all_games()
         start_id_chat = open('start_id_chat.txt').read().split()
         with open('old_target.json', 'r') as f:  # загружаем таргеты
             list_sell = json.load(f)
@@ -61,7 +76,7 @@ async def push_sell():
         with open('old_target.json', 'w') as f:
             json.dump(list_sell, f, indent=4, ensure_ascii=False)
 
-        await asyncio.sleep(60)
+        await asyncio.sleep(3600)
 
 
 if __name__ == '__main__':
