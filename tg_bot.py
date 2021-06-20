@@ -39,7 +39,10 @@ async def process_start_command(message: types.Message):
 
     if str(message.chat.id) in id_chat:
         start_id_chat = open('start_id_chat.txt').read().split()
-        start_id_chat.remove(str(message.chat.id))
+        if str(message.chat.id) in start_id_chat:
+            start_id_chat.remove(str(message.chat.id))
+        else:
+            bot.send_message(message.chat.id, 'Бот уже остановлен в этой группе!')
 
         with open('start_id_chat.txt', 'w') as f:
             for id in set(start_id_chat):
