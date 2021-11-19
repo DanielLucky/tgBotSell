@@ -23,3 +23,6 @@ tgBotSell - это телеграмм бот, рассылающий беспл�
 > pipenv shell 
 > python3 tg_bot.py
 ```
+## Посмотреть *тык*
+
+[a link](https://t.me/joinchat/IpUDlZtYS0dmZDVi)
